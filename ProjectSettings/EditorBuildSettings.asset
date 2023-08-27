@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/interfacesPlantasBrasil.unity
+    guid: 1c8c9350e488f23429d96ef1e71575cc
   m_configObjects: {}
