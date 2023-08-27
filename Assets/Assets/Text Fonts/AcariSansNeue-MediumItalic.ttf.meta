@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 953de22825664e4429de183a4f1b6499
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Acari Sans Neue
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 42892d32cef6d2d4a9b48f61e28565eb, type: 3}
+  - {fileID: 12800000, guid: 01195c2b6ef641643b73bc8185886bd1, type: 3}
+  - {fileID: 12800000, guid: c05138d3777d5cb4ba54dc3c92fca029, type: 3}
+  - {fileID: 12800000, guid: 0150be6fbffd53544bc95fb183adf12d, type: 3}
+  - {fileID: 12800000, guid: 706a22a916b5a0b4287a1501c0820619, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
