@@ -1,5 +1,8 @@
 # Instrucciones y reglas Git
 
-Enlace para el tutorial.
+Seguir el siguiente enlace:
 
-https://docs.google.com/document/d/1k-YfAWwFfP-2WJg-CwP0ai12QwiXey3USOzpq0lmcQo/edit?usp=sharing
+https://drive.google.com/drive/folders/1kJ0BQ4zGi1dire3Vl0d7j2DCMi4uwMom?usp=sharing
+
+
+Prueba
