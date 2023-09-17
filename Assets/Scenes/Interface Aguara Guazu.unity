@@ -402,7 +402,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2207094283385091491, guid: 64722a1a981dae6479b0f04926dd0629, type: 3}
       propertyPath: m_Name
-      value: Canvas Yaguarete
+      value: Canvas Aguara Guazu
       objectReference: {fileID: 0}
     - target: {fileID: 2817215344862400991, guid: 64722a1a981dae6479b0f04926dd0629, type: 3}
       propertyPath: m_Sprite
