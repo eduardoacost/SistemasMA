@@ -8,12 +8,20 @@ public class InicioController : MonoBehaviour
 {
     public GameObject canvasInicio;
     public GameObject canvasJugador;
+    public GameObject canvasHistoria;
+
     public GameObject botonHombre;
     public Button hombreBTransform;
+
     public GameObject botonMujer;
     public Button mujerBTransform;
+
     public GameObject botonYes;
     public GameObject botonNo;
+
+    public GameObject panelHistoria1;
+    public GameObject panelHistoria2;
+    public GameObject panelHistoria3;
 
     public void BotonInicio(){ 
         canvasInicio.SetActive(false);
@@ -48,5 +56,23 @@ public class InicioController : MonoBehaviour
 
         hombreTransform.anchoredPosition = new Vector3(-78,-14,0);
         mujerTransform.anchoredPosition = new Vector3(74,-14,0);
+    }
+
+    public void BotonYes()
+    {
+        canvasJugador.SetActive(false);
+        canvasHistoria.SetActive(true);
+    }
+
+    public void BotonSiguinete1()
+    {
+        panelHistoria1.SetActive(false);
+        panelHistoria2.SetActive(true);
+    }
+
+    public void BotonSiguinete2()
+    {
+        panelHistoria2.SetActive(false);
+        panelHistoria3.SetActive(true);
     }
 }
