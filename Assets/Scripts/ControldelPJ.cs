@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ControldelPJ : MonoBehaviour
 {
-    public InteractableButton BotonInteractivo;
+    //public InteractableButton BotonInteractivo;
     private bool isAttacking = false;
     void Start()
     {
@@ -14,6 +14,7 @@ public class ControldelPJ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (BotonInteractivo.interactMode)
         {
             // El personaje está en modo "interactuar", realiza la acción de interactuar.
@@ -24,5 +25,6 @@ public class ControldelPJ : MonoBehaviour
             // El personaje está en modo "atacar", realiza la acción de ataque.
             // Puedes agregar aquí tu lógica de ataque.
         }
+        */
     }
 }
