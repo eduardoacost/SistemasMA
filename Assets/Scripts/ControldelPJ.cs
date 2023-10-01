@@ -25,5 +25,7 @@ public class ControldelPJ : MonoBehaviour
             // El personaje está en modo "atacar", realiza la acción de ataque.
             // Puedes agregar aquí tu lógica de ataque.
         }
+         */
     }
+
 }
