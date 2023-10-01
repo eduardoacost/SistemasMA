@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/InterfacePeru.unity
     guid: f195ef1f33021764d8ca7c64d5619f33
   - enabled: 1
-    path: Assets/Scenes/InterfaceArgentina.unity
+    path: Assets/Scenes/InterfaceArgentina-Guaram.unity
     guid: c721a99ff7bb8d94f838970062fdd1fd
   - enabled: 1
     path: Assets/Scenes/InterfaceBrazil.unity
