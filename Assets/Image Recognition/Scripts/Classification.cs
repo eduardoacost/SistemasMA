@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System;
 
 public class Classification : MonoBehaviour {
@@ -11,6 +12,8 @@ public class Classification : MonoBehaviour {
 	const int IMAGE_SIZE = 224;
 	const string INPUT_NAME = "sequential_1_input";
 	const string OUTPUT_NAME = "sequential_3";
+
+	public string NombreEscenaCueva;
 
 	[Header("Model Stuff")]
 	public NNModel modelFile;
@@ -69,6 +72,10 @@ public class Classification : MonoBehaviour {
         //set UI text
         uiText.text = labels[index];
 
+        if (index == 1)
+        {
+			SceneManager.LoadScene(NombreEscenaCueva);
+		}
         //dispose tensors
         tensor.Dispose();
 		outputTensor.Dispose();
