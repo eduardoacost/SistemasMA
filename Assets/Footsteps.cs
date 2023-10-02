@@ -4,36 +4,35 @@ using UnityEngine;
 
 public class Footsteps : MonoBehaviour
 {
-    public AudioSource footstepsSound;
 
 
+    public bool isWalking = false;
 
     void Update()
     {
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
 
-            footstepsSound.enabled = true;
+            StartWalking();
 
         }
         else
         {
-            footstepsSound.enabled = false;
+            StopWalking();
 
         }
     }
 
-    public void PlayStepSound(AudioClip clip)
-    {
 
-        footstepsSound.PlayOneShot(clip);
+    public void StartWalking()
+    {
+        isWalking = true;
     }
 
-    public void StopStepSound()
+    // Call this method when the player stops walking
+    public void StopWalking()
     {
-        footstepsSound.Stop();
+        isWalking = false;
     }
-
-
 
 }
