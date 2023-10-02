@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InterfaceBrazil.unity
     guid: 3d3480beaae4890428b8e42997122739
+  - enabled: 1
+    path: Assets/Scenes/MinijuegoBrazil.unity
+    guid: cf457a82ca4dafe4c8671be13b72cb68
   m_configObjects: {}
