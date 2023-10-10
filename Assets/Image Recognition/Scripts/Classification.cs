@@ -12,6 +12,8 @@ public class Classification : MonoBehaviour {
 	const int IMAGE_SIZE = 224;
 	const string INPUT_NAME = "sequential_1_input";
 	const string OUTPUT_NAME = "sequential_3";
+	int currentIndex = -1;
+	bool isChangingScene = false;
 
 	public string NombreEscenaCueva;
 
@@ -72,14 +74,27 @@ public class Classification : MonoBehaviour {
         //set UI text
         uiText.text = labels[index];
 
-        if (index == 1)
-        {
-			SceneManager.LoadScene(NombreEscenaCueva);
+		currentIndex = index;
+
+		if (currentIndex == 0 && !isChangingScene)
+		{
+			StartCoroutine(ChangeSceneAfterDelay(1f));
 		}
-        //dispose tensors
-        tensor.Dispose();
+		//dispose tensors
+		tensor.Dispose();
 		outputTensor.Dispose();
 		yield return null;
+	}
+
+	IEnumerator ChangeSceneAfterDelay(float delay)
+	{
+		isChangingScene = true;
+		yield return new WaitForSeconds(delay);
+		if (currentIndex == 0)
+		{
+			SceneManager.LoadScene(NombreEscenaCueva);
+		}
+		isChangingScene = false;
 	}
 
 	//transform from 0-255 to -1 to 1

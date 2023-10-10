@@ -22,6 +22,24 @@ public class CameraView : MonoBehaviour {
         }
     }
 
+    void OnDisable()
+    {
+        // Asegura que la cámara se detenga cuando el objeto se desactive
+        if (webcamTexture != null)
+        {
+            webcamTexture.Stop();
+        }
+    }
+
+    void OnDestroy()
+    {
+        // Asegura que la cámara se detenga cuando el objeto sea destruido
+        if (webcamTexture != null)
+        {
+            webcamTexture.Stop();
+        }
+    }
+
     void SetAspectRatio() {
         fitter.aspectRatio = (float)webcamTexture.width / (float)webcamTexture.height;
     }

@@ -703,6 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816bb8aa743464a25adde23ceab37c2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NombreEscenaCueva: MapaNandu
   modelFile: {fileID: 5022602860645237092, guid: 43473f4c1dc40fd4eb9ee3a27c3fd796, type: 3}
   labelAsset: {fileID: 4900000, guid: 8117a010c361f46bca93b88c2fe607cd, type: 3}
   CameraView: {fileID: 329565627}
