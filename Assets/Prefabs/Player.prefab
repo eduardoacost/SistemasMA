@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2380059742378249533}
   - component: {fileID: 2380059742378249534}
   - component: {fileID: 2380059742378249535}
+  - component: {fileID: 2380059742378249530}
+  - component: {fileID: 1043410807468916680}
   - component: {fileID: 2380059742378249531}
   - component: {fileID: 2380059742378249529}
-  - component: {fileID: 2380059742378249530}
   - component: {fileID: 2380059742378249527}
   m_Layer: 3
   m_Name: Player
@@ -124,6 +125,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!114 &2380059742378249530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380059742378249504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb83b1f01305a3b4b8393f467488a840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWalking: 0
+--- !u!114 &1043410807468916680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380059742378249504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5ea9ee1b4beaa408c0ef4859444158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactMode: 0
+  interactableObject: {fileID: 0}
 --- !u!95 &2380059742378249531
 Animator:
   serializedVersion: 5
@@ -241,19 +269,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2380059742378249530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380059742378249504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb83b1f01305a3b4b8393f467488a840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footstepsSound: {fileID: 2380059742378249529}
 --- !u!70 &2380059742378249527
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -264,7 +279,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0045848857, y: -0.446599}
