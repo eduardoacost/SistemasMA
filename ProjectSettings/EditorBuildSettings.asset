@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Image Recognition/Scenes/ImgRecog.unity
     guid: 042746c2218fb2d4c820b121ed6d65c3
+  - enabled: 1
+    path: Assets/Scenes/MinijuegoPeru_Cantuta.unity
+    guid: 1fe0b1f9c9b425a4c9cb9228e34ec789
   m_configObjects: {}
