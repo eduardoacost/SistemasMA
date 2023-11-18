@@ -13727,11 +13727,7 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
-<<<<<<< HEAD
---- !u!114 &1686375438863497709
-=======
 --- !u!114 &1460942071164932313
->>>>>>> 751ad9af2647cbe60d63ac95e7764bdb49729dc3
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
