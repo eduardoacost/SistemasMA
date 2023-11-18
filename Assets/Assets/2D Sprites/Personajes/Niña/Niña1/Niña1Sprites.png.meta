@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: dc46fefc07bd240419466e11f7c7cf0d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_0"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 599
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667d56a9ecfe9d242ad0b1d53f6f93b1
+      internalID: 1401132585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_1"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 599
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd07063adb0c8f6499e92bd395424cd5
+      internalID: -1934153200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_2"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 599
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95246944cf6de3a4097d58de547d7c63
+      internalID: -812687116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_3"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 599
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abe2f48ec410d345a64593a12e4750a
+      internalID: -230312549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_4"
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 599
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333df14a2336fb149ba8fc88c210e087
+      internalID: 2107432916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_5"
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 469
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a2e1eafb3719b44ba8c2082ab5432d
+      internalID: -1001476495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_6"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 469
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b106e68035c8cbe44911e239b2333db4
+      internalID: 1929827011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_7"
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 469
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb0663be3a1c9f4495b97de37f5832b
+      internalID: -291747422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_8"
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 469
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633365b22e522ee43afe2c026e60626e
+      internalID: -1665926235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_9"
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 469
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5f63283147aa4498edd52f72b4630
+      internalID: 1404292722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_10"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 469
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed195530d1a090241b6d5f2e4e6c2763
+      internalID: -379294414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_11"
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 469
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6bee871a93c434d9e451027b3e6085
+      internalID: -1828516898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_12"
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 469
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83943e21d395f9f45ac0798b81e702e4
+      internalID: 1051928492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_13"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 338
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad32d2b1fb431747adc80ebd62eb41c
+      internalID: -1793031924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_14"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 338
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dfb833770f8e34bbd3918b229e8612
+      internalID: -423577174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_15"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 338
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309dc97f4f9102f43ae0fb3e94bc091b
+      internalID: -1943228851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_16"
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 338
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac357b1b35b6bf049affd0070980e494
+      internalID: 1900101876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_17"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 338
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d84fdb5cce2f48bfe6709761129e1
+      internalID: -695984439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_18"
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 338
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d054e0ad5a91649b33f4fd9c9c5640
+      internalID: -412441425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_19"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 338
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1458088d17fa11458d5acc99759ec15
+      internalID: -1939855305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_20"
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 338
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e01186f8941f468edb2e1acb4b534
+      internalID: -287553879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_21"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88e785ee267bd84d9e6b49497907a2b
+      internalID: 1461838601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_22"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08cfcdd410fbb04d9ac8b325285f118
+      internalID: 467886466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_23"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972355275444bd04588daa05ed272076
+      internalID: 1492492799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_24"
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492572afec22ce14baf0fb661d564f7d
+      internalID: 246620932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_25"
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e061eb26fe815b459819440c45dee54
+      internalID: 1549804601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_26"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cf2d9717f07dc4198dcac6b8a6c1ec
+      internalID: 1124811664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_27"
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e46db0094bbdee4db70b188a1a534d6
+      internalID: 739389447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_28"
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 213
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f554d4a049f4fd41b7526feaafe1f1e
+      internalID: -1638640373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_29"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef80c23b659e1a849869d1a02a9e5df7
+      internalID: -1041897465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_30"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729bbd810f05a0b4a996809887e2bb60
+      internalID: -766060567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_31"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b56fe1512a8ba645855b01c72829af8
+      internalID: -546549604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_32"
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0779b319b0323d3429c131905a262e62
+      internalID: -640837716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_33"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999f3377e1e0f5246995e0e7f810ecf0
+      internalID: 1811740154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_34"
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b246b10e2dd8aa449611d73b456ea61
+      internalID: -1746878452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_35"
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b703b5d8d36164fa1c0794dbe2cadc
+      internalID: 1812713454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ni\xF1a1Sprites_36"
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 85
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4406fcfadbc0924a98988bbbf0821b5
+      internalID: 275691969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9af925f1a961b4d4480478f65c8da555
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Ni\xF1a1Sprites_0": 1401132585
+      "Ni\xF1a1Sprites_1": -1934153200
+      "Ni\xF1a1Sprites_10": -379294414
+      "Ni\xF1a1Sprites_11": -1828516898
+      "Ni\xF1a1Sprites_12": 1051928492
+      "Ni\xF1a1Sprites_13": -1793031924
+      "Ni\xF1a1Sprites_14": -423577174
+      "Ni\xF1a1Sprites_15": -1943228851
+      "Ni\xF1a1Sprites_16": 1900101876
+      "Ni\xF1a1Sprites_17": -695984439
+      "Ni\xF1a1Sprites_18": -412441425
+      "Ni\xF1a1Sprites_19": -1939855305
+      "Ni\xF1a1Sprites_2": -812687116
+      "Ni\xF1a1Sprites_20": -287553879
+      "Ni\xF1a1Sprites_21": 1461838601
+      "Ni\xF1a1Sprites_22": 467886466
+      "Ni\xF1a1Sprites_23": 1492492799
+      "Ni\xF1a1Sprites_24": 246620932
+      "Ni\xF1a1Sprites_25": 1549804601
+      "Ni\xF1a1Sprites_26": 1124811664
+      "Ni\xF1a1Sprites_27": 739389447
+      "Ni\xF1a1Sprites_28": -1638640373
+      "Ni\xF1a1Sprites_29": -1041897465
+      "Ni\xF1a1Sprites_3": -230312549
+      "Ni\xF1a1Sprites_30": -766060567
+      "Ni\xF1a1Sprites_31": -546549604
+      "Ni\xF1a1Sprites_32": -640837716
+      "Ni\xF1a1Sprites_33": 1811740154
+      "Ni\xF1a1Sprites_34": -1746878452
+      "Ni\xF1a1Sprites_35": 1812713454
+      "Ni\xF1a1Sprites_36": 275691969
+      "Ni\xF1a1Sprites_4": 2107432916
+      "Ni\xF1a1Sprites_5": -1001476495
+      "Ni\xF1a1Sprites_6": 1929827011
+      "Ni\xF1a1Sprites_7": -291747422
+      "Ni\xF1a1Sprites_8": -1665926235
+      "Ni\xF1a1Sprites_9": 1404292722
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
