@@ -39,9 +39,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MapaBrasil2.unity
     guid: 8d8cbea74af3e9b4682c35059415a47e
   - enabled: 1
-    path: Assets/Image Recognition/Scenes/ImgRecog.unity
-    guid: 042746c2218fb2d4c820b121ed6d65c3
+
+    path: Assets/Scenes/MapaCarpincho.unity
+    guid: b84d3e9101435ba48b0a0278258713ea
   - enabled: 1
-    path: Assets/Scenes/MinijuegoPeru_Cantuta.unity
-    guid: 1fe0b1f9c9b425a4c9cb9228e34ec789
+    path: Assets/Scenes/MapaGuaran.unity
+    guid: 2457256968ed1c541835bc3517916f9a
+  - enabled: 1
+    path: Assets/Scenes/MapaYaguarate.unity
+    guid: 0d06791de8a68454d867e9ed60df735a
+
   m_configObjects: {}
