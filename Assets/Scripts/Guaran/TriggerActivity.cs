@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class TriggerActivity : MonoBehaviour
 {
-    [Header("Canvas")]
+    [Header("Canvas/UI")]
     public GameObject canvasPreguntas;
+    public GameObject canvasInfo;
+    public GameObject panelAntes;
+    public GameObject panelDespues;
+    public GameObject panelFinal;
 
     [Header("Tilemaps")]
     public GameObject tilemapMapa;
@@ -22,10 +26,32 @@ public class TriggerActivity : MonoBehaviour
             tilemapMapa.SetActive(false);
             player.SetActive(false);
 
-            canvasPreguntas.SetActive(true);
+            canvasInfo.SetActive(true);
             tilemapActividad.SetActive(true);
 
             triggerActividad.SetActive(false);
         }
+    }
+
+    public void ActivarActividad()
+    {
+        canvasPreguntas.SetActive(true);
+        panelAntes.SetActive(false);
+    }
+
+    public void ActivarInfo()
+    {
+        panelDespues.SetActive(false);
+        panelFinal.SetActive(true);
+    }
+
+    public void ApagarCanvas()
+    {
+        player.SetActive(true);
+
+        canvasInfo.SetActive(false);
+
+        tilemapMapa.SetActive(true);
+        tilemapActividad.SetActive(false);
     }
 }
