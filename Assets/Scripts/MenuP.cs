@@ -11,6 +11,8 @@ public class MenuP : MonoBehaviour
     public GameObject AyudaUI;
     public GameObject TareasUI;
     public GameObject Tareas2UI;
+    public GameObject MapaUI;
+    public GameObject MBrazilUI;
     
 
     private bool juegoPausado = false;
@@ -97,6 +99,29 @@ public class MenuP : MonoBehaviour
         TareasUI.SetActive(false);
         Tareas2UI.SetActive(false);
     }
+
+    public void Abriramapa()
+    {
+        MapaUI.SetActive(true);
+       
+    }
+
+     public void Cerrarmapa()
+    {
+        MapaUI.SetActive(false);
+       
+    }
      
+    public void AbrirMb()
+    {
+        MBrazilUI.SetActive(true);
+       
+    }
+
+     public void CerrarMb()
+    {
+        MBrazilUI.SetActive(false);
+       
+    }
 }
 

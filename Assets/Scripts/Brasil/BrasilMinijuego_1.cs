@@ -89,6 +89,7 @@ public class BrasilMinijuego_1 : MonoBehaviour
     {
         AudioSource audio = GetComponent<AudioSource>();
         audio.Play();
+
         switch (id)
         {
             case 0:
