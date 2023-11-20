@@ -33,20 +33,21 @@ EditorBuildSettings:
     path: Assets/Scenes/MinijuegoBrazil.unity
     guid: cf457a82ca4dafe4c8671be13b72cb68
   - enabled: 1
-    path: Assets/Scenes/MapaNandu.unity
+    path: Assets/Scenes/Brasil/MapaNandu.unity
     guid: 67d50ff66398afe4ca4e4546eb0efef0
   - enabled: 1
     path: Assets/Scenes/MapaBrasil2.unity
     guid: 8d8cbea74af3e9b4682c35059415a47e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-
-    path: Assets/Scenes/MapaCarpincho.unity
-    guid: b84d3e9101435ba48b0a0278258713ea
-  - enabled: 1
-    path: Assets/Scenes/MapaGuaran.unity
+    path: Assets/Scenes/Argentina/MapaGuaran.unity
     guid: 2457256968ed1c541835bc3517916f9a
   - enabled: 1
     path: Assets/Scenes/MapaYaguarate.unity
     guid: 0d06791de8a68454d867e9ed60df735a
-
   m_configObjects: {}
