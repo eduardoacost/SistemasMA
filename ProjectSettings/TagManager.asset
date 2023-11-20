@@ -7,6 +7,9 @@ TagManager:
   - PuzzleCard
   - Pickable
   - Recolectable
+  - Basura
+  - correcto
+  - incorrecto
   layers:
   - Default
   - TransparentFX
