@@ -14,12 +14,14 @@ public class QuizDB : MonoBehaviour
     public GameObject panel2;
     public GameObject panel3;
 
+    public GameObject panelDespues;
+
     public GameObject player;
 
     public Question GetQuestion(bool remove = true)
     {
         if (n_questionList.Count == 0)
-            ApagarCanvas();
+            ApagarPreguntas();
         if (n_questionList.Count == 2)
         {
             panel1.SetActive(false);
@@ -43,11 +45,9 @@ public class QuizDB : MonoBehaviour
         return q;
     }
 
-    public void ApagarCanvas()
+    public void ApagarPreguntas()
     {
         canvasPreguntas.SetActive(false);
-        actividad.SetActive(false);
-        mapa.SetActive(true);
-        player.SetActive(true);
+        panelDespues.SetActive(true);
     }
 }
