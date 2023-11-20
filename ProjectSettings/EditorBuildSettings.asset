@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MapaBrasil.unity
     guid: 0f551109bc4c84d4fbea7775b78dfb5d
   - enabled: 1
-    path: Assets/Scenes/MinijuegoBrazil.unity
+    path: Assets/Scenes/Brasil/MinijuegoBrazil.unity
     guid: cf457a82ca4dafe4c8671be13b72cb68
   - enabled: 1
     path: Assets/Scenes/Brasil/MapaNandu.unity
